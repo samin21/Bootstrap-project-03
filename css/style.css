@@ -1,0 +1,309 @@
+/*
+Author Name
+Autohr Info Here
+*/
+
+/* ======Index=======
+
+1.Home
+2.About
+3.Our Work
+4.Contact
+5.
+=====================
+*/
+
+
+/* Global CSS */
+
+body {
+	font-family: 'Roboto Slab', serif;
+
+}
+
+.no-padding {
+	padding: 0px;
+}
+
+.img-center {
+	display: block;
+	margin: 0 auto;
+}
+p {
+	font-size: 15px;
+
+}
+
+
+/*navigation section start*/
+.menu {
+	background-color: #edeff1;
+	padding: 25px 0px;
+}
+.nav-link {
+	color: #161616;
+}
+
+.js-scroll-trigger.active {
+    background: #dd4b2b;
+    color: #fff;
+    border-radius: 14px;
+    padding: 4px 11px!important;
+}
+/*Fusce at section start*/
+
+.hero {
+	background:url(../img/banner.png);
+	background-size: cover;
+	display: block;
+	background-position-x: center;
+    background-position-y: 100px;
+}
+
+.tittle {
+    padding-top: 300px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.tittle h2 {
+    color: #fff;
+    font-size: 48px;
+    margin-top: 100px;
+}
+
+
+.tittle p {
+    color: #fff;
+    font-size: 25px;
+}
+
+.food-menu {
+	text-align: center;
+}
+
+.food-menu h2{
+	color: #fff;
+	margin: 10px 0px;
+	
+}
+
+.food-menu p{
+	color: #fff;
+	
+}
+
+.btnn {
+    margin: 28px auto 56px;
+    background: #fff;
+    padding: 6px 20px;
+    color: darkred;
+    border-radius: 12px;
+}
+/*Facilisis section start*/
+.Facilisis {
+
+background: #EDEFF1;
+
+text-align: center;
+}
+.Facilisis h3{
+	
+font-size: 25px;
+	
+margin-bottom: 50px;
+}
+.p-one h2{
+	font-size: 20px;
+	margin-top: 35px;
+}
+.p-one p{
+	font-size: 15px;
+}
+.btn{
+	font-size: 13px;
+	padding: 8px 25px;
+	border-radius: 15px;
+	margin: 10px;
+	background-color: #FFFFFF;
+}
+/*Antedonec section start*/
+.Antedonec{
+
+background: url(../img/newsletter.png)no-repeat;
+
+background-size: cover;
+
+display: block;
+
+text-align: center;
+
+color: #524f4f;
+
+padding-bottom: 100px;
+}
+.p-two h2{
+	margin-top: 25px;
+}
+
+.input{
+
+position: relative;
+
+border-radius: 15px;
+
+border-style: none;
+
+padding: 10px 40px;
+
+background: #ffffff61;
+}
+.input-two{
+	
+position: absolute;
+	
+border-radius: 15px;
+	
+border-style: none;
+	
+background: #fff;
+	
+padding: 10px 40px;
+	
+right: 15px;
+	
+color: #AB8A83;
+}
+/*Blanditrhoncus section start*/
+.Blanditrhoncus{
+}
+.p-three{
+
+padding: 30px 25px;
+}
+.p-three h2{
+
+font-size: 25px;
+}
+.p-three p{
+
+font-size: 15px;
+
+color: #5A5B65;
+
+margin: 20px 0px;
+}
+.btt{
+
+background: #DD4B2B;
+
+border-style: none;
+
+border-radius: 15px;
+
+color: #fff;
+
+padding: 10px 50px;
+
+margin: 35px 0px;
+
+font-size: 14px;
+}
+.white{
+	
+border: 1px solid #E4E4E4;
+	
+background: #fff;
+	
+padding: 0px 0px 20px;
+}
+.p-four{
+
+padding: 30px 25px;
+
+margin-top: 50px;
+}
+.p-four h2{
+
+font-size: 25px;
+}
+.p-four p{
+
+font-size: 15px;
+
+color: #5A5B65;
+
+margin: 20px 0px;
+}
+.bttn{
+	background: #4B4E73;
+	border-style: none;
+	border-radius: 15px;
+	color: #fff;
+	padding: 10px 50px;
+	font-size: 14px;
+	margin: 35px 0px;
+	}
+.black{
+	
+border: 1px solid #E4E4E4;
+	
+background: #fff;
+	
+padding: 0px 0px 20px;
+	
+margin-top: 50px;
+}
+/*Placerat section start*/
+.Placerat{
+
+text-align: center;
+
+list-style: none;
+
+background: #D75D0E;
+
+color: #Fff;
+
+font-size: 15px;
+
+padding: 50px 0px;
+}
+/*Footer section start*/
+footer {
+    background: url(../img/newsletter.png)no-repeat;
+    display: block;
+    background-size: cover;
+    color: #dedcdc;
+    padding: 50px 0px 200px;
+    text-align: center;
+}
+b{
+	color: #fff;
+} 
+/*Media quray*/
+
+/*Devise mobile*/
+
+@media (min-width: 320px) and (max-width: 768px){
+	body{
+		text-align: center;
+	}
+	.tittle{
+		padding: 0px 0px;
+	}
+	.white{
+		border: none;
+		padding: 0px 0px;
+	}
+	.black{
+		border: none;
+		padding: 0px 0px;	
+	}
+	footer{
+		padding: 50px 0px;
+	}
+	.tittle p{
+		font-size: 20px;
+	}
+}
